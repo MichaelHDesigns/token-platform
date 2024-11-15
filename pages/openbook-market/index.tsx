@@ -62,7 +62,6 @@ export default function Home() {
   const [started, setStarted] = useState(false);
   const [stopFlag, setStopFlag] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [ltAddress, setLtAddress] = useState("FPtmoHC8vs7XuS67PqtxYBFnnERaEjQwv4H4UgBCsYRn");
   const [tokenList, setTokenList] = useState([]);
   const [fetchFlag, setFetchFlag] = useState(false);
 
